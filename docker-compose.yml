@@ -4,7 +4,7 @@ services:
     ports:
       - "5000:5000"
     environment:
-      - MONGO_URI=<MONGOURI/DBNAME>
+      - MONGO_URI=<MONGODBURI/DBNAME>
     depends_on:
       - mongo
   mongo:
