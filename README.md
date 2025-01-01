@@ -43,9 +43,9 @@ URL - http://localhost:5000/users
 In the body, select raw and enter the json in this format:  
 ```json
 {
-    "name" : "Niladri",
-    "email" : "niladry@gmail.com",
-    "password" : "CoRiderForLife_123"
+    "name" : "Nitin",
+    "email" : "nitin.somu13@gmail.com",
+    "password" : "dummy_password"
 }
 ```
 The response will contain the user ID of the created user.  
@@ -56,7 +56,7 @@ URL - http://localhost:5000/users/{id}
 In the body, select raw and enter the json in this format:  
 ```json
 {
-    "password" : "BestIntern456"
+    "password" : "dummy_password1"
 }
 ```
 
